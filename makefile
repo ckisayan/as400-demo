@@ -1,6 +1,6 @@
 
 BIN_LIB=CMPSYS
-LIBLIST=$(BIN_LIB) ckisayan1
+LIBLIST=$(BIN_LIB) as400demo
 SHELL=/QOpenSys/usr/bin/qsh
 
 all: employees.sqlrpgle
