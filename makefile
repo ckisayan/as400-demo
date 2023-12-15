@@ -3,10 +3,9 @@ BIN_LIB=CMPSYS
 LIBLIST=$(BIN_LIB) ckisayan1
 SHELL=/QOpenSys/usr/bin/qsh
 
-all: depts.sqlrpgle employees.sqlrpgle hellovid.sqlrpgle
+all: hellovid.sqlrpgle
 
-depts.sqlrpgle: depts.dspf
-employees.sqlrpgle: emps.dspf
+
 
 %.sqlrpgle:
 	system -s "CHGATR OBJ('./qrpglesrc/$*.sqlrpgle') ATR(*CCSID) VALUE(1252)"
