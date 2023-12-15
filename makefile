@@ -3,7 +3,7 @@ BIN_LIB=CMPSYS
 LIBLIST=$(BIN_LIB) ckisayan1
 SHELL=/QOpenSys/usr/bin/qsh
 
-all: hellovid.sqlrpgle, employees.sqlrpgle
+all: employees.sqlrpgle
 
 employees.sqlrpgle: emps.dspf
 
