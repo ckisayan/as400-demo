@@ -1,6 +1,6 @@
 
 BIN_LIB=CMPSYS
-LIBLIST=$(BIN_LIB) SAMPLE
+LIBLIST=$(BIN_LIB) ckisayan1
 SHELL=/QOpenSys/usr/bin/qsh
 
 all: depts.sqlrpgle employees.sqlrpgle hellovid.sqlrpgle
